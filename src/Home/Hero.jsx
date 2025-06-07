@@ -4,13 +4,11 @@ import Navbar from "../Layouts/Navbar";
 const Hero = () => {
   return (
     <div
-      className="relative inset-0 -z-10 bg-gradient-to-r from-red-400 to-red-400
- overflow-hidden"
-    >
+
       {/* Background image */}
       <div
         className="
-          absolute w-full inset-0 -z-10
+          absolute w-full  inset-0  -z-10
           bg-[url('src/assets/bg-pattern-intro-mobile.svg')]
           md:bg-[url('src/assets/bg-pattern-intro-desktop.svg')]
           bg-no-repeat
