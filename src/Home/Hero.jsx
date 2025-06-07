@@ -4,32 +4,35 @@ import Navbar from "../Layouts/Navbar";
 const Hero = () => {
   return (
     <div
-      className="relative inset-0 -z-10 bg-gradient-to-r from-[#FF836E] to-[#FF6D66] 
- overflow-hidden "
+      className="relative inset-0 z-10  bg-gradient-to-r from-[#FF826D] to-[#FF515C] 
+ overflow-hidden overflow-x-hidden rounded-bl-[100px]"
     >
       {/* Background image */}
       <div
-        className="
-          absolute w-full  inset-0  -z-10
+        className="  
+          absolute w-full inset-0 -z-10
           bg-[url('src/assets/bg-pattern-intro-mobile.svg')]
           md:bg-[url('src/assets/bg-pattern-intro-desktop.svg')]
           bg-no-repeat
-          bg-center
-          bg-cover
+           bg-[length:350%_230%]
+          bg-[position:36%_38%]
+          lg:bg-[length:230%_620%]
+          lg:bg-[position:26%_50%]
+          
         "
-      />
+      ></div>
 
       <Navbar />
 
-      <div className="container mx-auto text-center py-20 px-4 md:px-10 lg:px-20">
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+      <div className="container mx-auto text-center py-16 px-4 md:px-10 lg:px-20">
+        <h1 className="text-4xl md:text-[50px] font-overpass font-bold text-white mb-6">
           A modern publishing platform
         </h1>
-        <p className="text-lg md:text-xl text-white/90 mb-8">
+        <p className="text-lg md:text-xl font-ubuntu text-white/90 mb-8">
           Grow your audience and build your online brand
         </p>
-        <div className="flex justify-center gap-4">
-          <button className="bg-white text-red-500 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
+        <div className="flex justify-center font-ubuntu gap-4 pb-10">
+          <button className="bg-white text-red-500 px-6 py-3 rounded-full font-semibold hover:bg-[#FF7C85] hover:text-white transition">
             Start for Free
           </button>
           <button className="text-white px-6 py-3 rounded-full font-semibold border border-white hover:bg-white hover:text-red-500 transition">
