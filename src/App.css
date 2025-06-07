@@ -8,3 +8,7 @@
     --font-ubuntu: "Ubuntu", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
