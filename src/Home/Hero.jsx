@@ -4,9 +4,7 @@ import Navbar from "../Layouts/Navbar";
 const Hero = () => {
   return (
     <div
-      className="relative inset-0 -z-10 bg-gradient-to-r from-[#FF836E] to-[#FF6D66] 
- overflow-hidden "
-    >
+
       {/* Background image */}
       <div
         className="
