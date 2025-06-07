@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div
       className="relative inset-0 -z-10 bg-gradient-to-r from-red-400 to-red-400
- overflow-hidden "
+ overflow-hidden"
     >
       {/* Background image */}
       <div
