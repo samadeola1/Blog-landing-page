@@ -109,7 +109,7 @@ const Navbar = () => {
                     />
                   </button>
                   {isConnectOpen && (
-                    <ul className="dropdown-content menu bg-[#EFEFF1] rounded-box z-50 w-80 p-2 shadow-sm text-gray-800 mt-2 flex text-[18px] flex-col items-center">
+                    <ul className="dropdown-content menu bg-gray-100 rounded-box z-50 w-80 p-2 shadow-sm text-gray-800 mt-2 flex text-[18px] flex-col items-center">
                       <li>
                         <a>Contact</a>
                       </li>
