@@ -11,8 +11,8 @@ const Hero = () => {
       <div
         className="  
           absolute w-full inset-0 -z-10
-          bg-[url('src/assets/bg-pattern-intro-mobile.svg')]
-          md:bg-[url('src/assets/bg-pattern-intro-desktop.svg')]
+          bg-[url('https://res.cloudinary.com/dd9nujmdt/image/upload/v1749493290/bg-pattern-intro-mobile_gcfpbd.svg')]
+          md:bg-[url('https://res.cloudinary.com/dd9nujmdt/image/upload/v1749493271/bg-pattern-intro-desktop_k2nins.svg')]
           bg-no-repeat
            bg-[length:350%_230%]
           bg-[position:36%_38%]
