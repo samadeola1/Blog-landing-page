@@ -4,15 +4,21 @@ import mobileone from "../assets/illustration-editor-mobile.svg";
 const Section1 = () => {
   return (
     <>
-    <main className="py-20 px-5">
-      <section className="lg:px-[80px] xl:px-[80px] lg:py-[16px] px-[14px] md:px-[40px] py-[10px] mx-auto">
-        <h2 className=" text-center font-bold font-overpass text-[27px] lg:text-4xl 2xl:text-5xl text-blue-950">
+    <main className="py-20 ">
+      <section className="container mx-auto  ">
+        <h2 className="mb-10 text-center font-bold font-overpass text-[27px] lg:text-4xl 2xl:text-5xl text-blue-950">
            Designed for the future
         </h2>
+        <div className="md:w-1/2">
+          <img src={mobileone}
+               alt="" 
+              className="max-w-2xl md:hidden -ml-2" />
+            
+        </div>
 
-        <div className="flex flex-col-reverse items-center md:grid md:grid-cols-2 md:gap-5 md:items-center md:text-left  ">
+        <div className="flex flex-col md:flex-row items-center  ">
           <div className="mt-10 ">
-            <h3 className="font-semibold font-overpass md:block hidden text-blue-950 text-2xl mt-10 mb-5">
+            <h3 className="md:px-15 font-semibold font-overpass md:block hidden text-blue-950 text-2xl mt-10 mb-5">
             Introducing an extensible editor
           </h3>
           <div className="text-center font-semibold font-overpass text-blue-950 text-2xl mt-10 mb-5 md:hidden">
@@ -24,7 +30,7 @@ const Section1 = () => {
           </h3>
           </div>
 
-          <p className="text-[16px] tracking-wide text-orange-900 ">
+          <p className="text-[16px]  text-orange-900 px-6 md:px-15 ">
               Blogr features an exceedingly intuitive interface which lets you
               focus on one thing: creating content. The editor supports management
               of multiple blogs and allows easy manipulation of embeds such as
@@ -33,7 +39,7 @@ const Section1 = () => {
               blog.
           </p>
 
-          <h3 className="font-semibold font-overpass text-blue-950 text-2xl mt-10 mb-5 md:block hidden">
+          <h3 className="md:px-15 font-semibold font-overpass text-blue-950 text-2xl mt-10 mb-5 md:block hidden">
               Robust content management
           </h3>
           <div className="font-semibold font-overpass text-blue-950 text-2xl mt-10 mb-5 text-center md:hidden">
@@ -45,20 +51,18 @@ const Section1 = () => {
             </h3>
           </div>
 
-          <p className="text-[16px] font-overpass tracking-wide text-orange-900">
+          <p className="text-[16px] font-overpass md:px-15 text-orange-900 px-6">
               Flexible content management enables users to easily move through
               posts. Increase the usability of your blog by adding customized
               categories, sections, format, or flow. With this functionality,
               you’re in full control.
           </p>
           </div>
-          <div>
-            <picture>
-              <source media="(min-width: 1024px)" srcset={desktopone} />
-              <img src={mobileone}
-               alt="" 
-              className="max-w-2xl block mx-auto mt-8" />
-            </picture>
+          <div className="md:w-1/2">
+            <img src={desktopone}
+            className="hidden md:block max-w-[600px] left-33 relative" 
+            alt="" />
+            
           </div>
         </div>
       </section>
