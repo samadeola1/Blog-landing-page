@@ -30,7 +30,7 @@ const Section1 = () => {
           </h3>
           </div>
 
-          <p className="text-[16px] text-very-dark-grayish-blue px-6 md:px-15 ">
+          <p className="text-[16px] text-very-dark-grayish-blue px-6 md:p-15 ">
               Blogr features an exceedingly intuitive interface which lets you
               focus on one thing: creating content. The editor supports management
               of multiple blogs and allows easy manipulation of embeds such as
@@ -60,7 +60,7 @@ const Section1 = () => {
           </div>
           <div className="md:w-1/2 overflow-hidden">
             <img src={desktopone}
-            className="hidden md:block max-w-[600px] left-33 relative" 
+            className="hidden md:block max-w-[600px] relative" 
             alt="" />
             
           </div>
