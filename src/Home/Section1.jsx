@@ -4,12 +4,12 @@ import mobileone from "../assets/illustration-editor-mobile.svg";
 const Section1 = () => {
   return (
     <>
-    <main className="py-20 ">
-      <section className="container mx-auto  ">
+    <main className="py-20 overflow-hidden">
+      <section className="container mx-auto overflow-hidden  ">
         <h2 className="mb-10 text-center font-bold font-overpass text-[27px] lg:text-4xl 2xl:text-5xl text-blue-950">
            Designed for the future
         </h2>
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 overflow-hidden">
           <img src={mobileone}
                alt="" 
               className="max-w-2xl md:hidden -ml-2" />
@@ -30,7 +30,7 @@ const Section1 = () => {
           </h3>
           </div>
 
-          <p className="text-[16px]  text-orange-900 px-6 md:px-15 ">
+          <p className="text-[16px] text-very-dark-grayish-blue px-6 md:px-15 ">
               Blogr features an exceedingly intuitive interface which lets you
               focus on one thing: creating content. The editor supports management
               of multiple blogs and allows easy manipulation of embeds such as
@@ -51,14 +51,14 @@ const Section1 = () => {
             </h3>
           </div>
 
-          <p className="text-[16px] font-overpass md:px-15 text-orange-900 px-6">
+          <p className="text-[16px] font-overpass md:px-15 text-very-dark-grayish-blue px-6">
               Flexible content management enables users to easily move through
               posts. Increase the usability of your blog by adding customized
               categories, sections, format, or flow. With this functionality,
               you’re in full control.
           </p>
           </div>
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 overflow-hidden">
             <img src={desktopone}
             className="hidden md:block max-w-[600px] left-33 relative" 
             alt="" />
