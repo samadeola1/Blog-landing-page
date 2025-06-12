@@ -1,10 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const Section2 = () => {
   return (
-    <div>Section2</div>
-  )
-}
+    <div>
+      <img src="" alt="" />
+      <div>
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+  );
+};
 
-export default Section2
-
+export default Section2;
