@@ -3,7 +3,7 @@ import illustrationLaptopMobile from '../assets/illustration-laptop-mobile.svg';
 
 const SimpleSection = () => {
   return (
-    <section className="py-20 font-overpass">
+    <section className="py-12 font-overpass">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2">
@@ -21,10 +21,10 @@ const SimpleSection = () => {
 
           <div className="md:w-1/2 md:pl-16 mt-16 md:mt-0 md:pr-40 ">
             <div className="mb-12">
-              <h3 className="text-2xl font-bold text-[#223D55] mb-4 pl-[30px] md:pl-0">
+              <h3 className="text-2xl font-bold text-center text-[#223D55] mb-4 md:pl-[30px]">
                 Free, open, simple
               </h3>
-              <p className="text-[#7E8081]">
+              <p className="text-[#7E8081] text-center">
                 Blogr is a free and open source application backed by a large
                 community of helpful developers. It supports features such as
                 code syntax highlighting, RSS feeds, social media integration,
@@ -35,10 +35,10 @@ const SimpleSection = () => {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-[#223D55] mb-4 pl-[30px] md:pl-0">
+              <h3 className="text-2xl text-center font-bold text-[#223D55] mb-4 md:pl-[30px]">
                 Powerful tooling
               </h3>
-              <p className="text-[#7E8081]">
+              <p className="text-[#7E8081] text-center">
                 Batteries included. We built a simple and straightforward CLI
                 tool that makes customization and deployment a breeze, but
                 capable of producing even the most complicated sites.
