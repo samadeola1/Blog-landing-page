@@ -41,7 +41,7 @@ const Navbar = () => {
                 />
               </button>
               <ul
-                className={`dropdown-content my-3 menu bg-base-100 rounded-box z-50 w-52 p-2 shadow-sm text-gray-800 ${
+                className={`dropdown-content my-3 menu bg-[#FFFFFF] rounded-box z-50 w-52 p-2 shadow-sm text-gray-800 ${
                   isConnectOpen ? "" : "hidden"
                 }`}
               >
@@ -109,7 +109,7 @@ const Navbar = () => {
                     />
                   </button>
                   {isConnectOpen && (
-                    <ul className="dropdown-content menu bg-gray-100 rounded-box z-50 w-80 p-2 shadow-sm text-gray-800 mt-2 flex text-[18px] flex-col items-center">
+                    <ul className="dropdown-content menu bg-gray-100 rounded-box z-50 w-[100%]  p-2 shadow-sm text-gray-800 mt-2 flex text-[16px] flex-col items-center">
                       <li>
                         <a>Contact</a>
                       </li>
@@ -133,7 +133,9 @@ const Navbar = () => {
               }
             >
               <hr className="w-full border-gray-200" />
-              <button className="text-gray-700 text-xl font-medium mt-4">Login</button>
+              <button className="text-gray-700 text-xl font-medium mt-4">
+                Login
+              </button>
               <button className="bg-gradient-to-r from-orange-300 to-red-500 text-white text-xl font-semibold px-7 py-2 rounded-full mt-2 mx-auto">
                 Sign Up
               </button>
