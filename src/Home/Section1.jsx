@@ -52,7 +52,7 @@ const Section1 = () => {
           </div>
           <div className="md:w-1/2">
             <img src={desktopone}
-            className="hidden md:block max-w-[600px] left-33 relative" 
+            className="hidden md:block max-w-[600px]  relative" 
             alt="" />
             
           </div>
