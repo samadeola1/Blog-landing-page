@@ -18,7 +18,7 @@ const Section1 = () => {
 
           <div className="flex flex-col md:flex-row items-center  ">
             <div className="mt-5 ">
-              <h3 className="md:px-15 font-semibold font-overpass md:block hidden text-[#223D55] text-2xl mt-10 mb-5">
+              <h3 className="md:px-30 font-semibold font-overpass md:block hidden text-[#223D55] text-2xl mt-10 mb-5">
                 Introducing an extensible editor 
               </h3>
               <div className="text-center font-semibold font-overpass text-[#223D55] text-2xl mt-10 mb-5 md:hidden">
@@ -26,7 +26,7 @@ const Section1 = () => {
                 <h3>extensible editor</h3>
               </div>
 
-          <p className="text-[16px]  text-orange-900 px-6 md:px-15 ">
+          <p className="text-[16px] text-[#7E8081] px-6 md:px-30 md:text-lg">
               Blogr features an exceedingly intuitive interface which lets you
               focus on one thing: creating content. The editor supports management
               of multiple blogs and allows easy manipulation of embeds such as
@@ -35,7 +35,7 @@ const Section1 = () => {
               blog.
           </p>
 
-              <h3 className="md:px-15 font-semibold font-overpass text-[#223D55] text-2xl mt-10 mb-5 md:block hidden">
+              <h3 className="md:px-30 font-semibold font-overpass text-[#223D55] text-2xl mt-10 mb-5 md:block hidden">
                 Robust content management
               </h3>
               <div className="font-semibold font-overpass text-[#223D55] text-2xl mt-10 mb-5 text-center md:hidden">
@@ -43,7 +43,7 @@ const Section1 = () => {
                 <h3>management</h3>
               </div>
 
-          <p className="text-[16px] font-overpass md:px-15 text-orange-900 px-6">
+          <p className="text-[16px] font-overpass md:px-30 text-[#7E8081] px-6">
               Flexible content management enables users to easily move through
               posts. Increase the usability of your blog by adding customized
               categories, sections, format, or flow. With this functionality,
